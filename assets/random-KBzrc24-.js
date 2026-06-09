@@ -1,0 +1,1 @@
+function e(e){let t=e|0;return()=>(t=t*1664525+1013904223|0,(t>>>0)/4294967296)}function t(e,t=Math.random){for(let n=e.length-1;n>0;n--){let r=Math.floor(t()*(n+1));[e[n],e[r]]=[e[r],e[n]]}return e}export{t as n,e as t};
