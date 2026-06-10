@@ -1,1 +1,0 @@
-import{t as e,w as t}from"./game-szoOCTBH.js";function n(n){let r=e(),i=new Set;function a(e){clearTimeout(e),i.delete(e)}function o(e,t){let a=setTimeout(()=>{i.delete(a),(!n||r.currentScreen===n)&&e()},t);return i.add(a),a}function s(){i.forEach(e=>clearTimeout(e)),i.clear()}return t(s),{setSafeTimeout:o,clearSafeTimeout:a,clearAllTimeouts:s}}export{n as t};
