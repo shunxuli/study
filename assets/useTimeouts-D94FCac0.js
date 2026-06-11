@@ -1,1 +1,0 @@
-import{W as e,t}from"./game-Df7Jlm7y.js";function n(n){let r=t(),i=new Set;function a(e){clearTimeout(e),i.delete(e)}function o(e,t){let a=setTimeout(()=>{i.delete(a),(!n||r.currentScreen===n)&&e()},t);return i.add(a),a}function s(){i.forEach(e=>clearTimeout(e)),i.clear()}return e(s),{setSafeTimeout:o,clearSafeTimeout:a,clearAllTimeouts:s}}export{n as t};
