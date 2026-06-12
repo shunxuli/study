@@ -1,0 +1,1 @@
+import{H as e,I as t,X as n}from"./game-CK7CnSs9.js";import{t as r}from"./BaseConfig-nsN8TkcK.js";var i=e({__name:`TwentyfourConfig`,setup(e){return(e,i)=>(n(),t(r,{title:`🃏 24点`,desc:`用 + - × ÷ 把4个数字凑成24！`,"primary-action-label":`开始游戏`,"primary-route":`twentyfour-game`}))}});export{i as default};
